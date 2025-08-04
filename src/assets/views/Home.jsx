@@ -29,7 +29,6 @@ function Home() {
         }}
       />
 
-      {/* Your Content */}
       <div style={{ position: 'relative', zIndex: 1, padding: '2rem' }}>
         <h1 className="header">Playing with emojis using <span>useState</span></h1>
         <p>This is a simple React app that demonstrates how to use the useState hook to manage state in a functional component.</p>
@@ -57,6 +56,7 @@ function Home() {
     <div className="emoji"onClick={()=>{setEmoji("😍")}}>😍</div>
     <div className="emoji"onClick={()=>{setEmoji("😒")}}>😒</div>
     </div>
+    
 
     <div className='color-picker'>
 <div className='color' onClick={() => setBgColor("#f79292ff")} style={{ backgroundColor: "#f79292ff" }}></div>

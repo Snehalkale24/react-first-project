@@ -1,4 +1,4 @@
-.header{
+ .header{
 
     text-align: center;
     margin:50px;
@@ -15,9 +15,10 @@ p{
 .emoji-container {
   text-align: center;
   padding: 20px;
-  margin-bottom: 20px;
   border-radius: 12px;
-  transition: all 0.3s ease;
+  width:600px;
+  margin-left: 400px;
+  height: 200px;
 }
 
 .slider-container {
@@ -29,6 +30,7 @@ p{
   flex-wrap: wrap;
   gap: 10px;
   margin-top: 20px;
+  text-align: center;
 }
 
 .emoji {
@@ -36,6 +38,7 @@ p{
   cursor: pointer;
   padding: 8px;
   transition: transform 0.2s;
+
 }
 
 .emoji:hover {
@@ -62,3 +65,5 @@ p{
 .color:hover {
   background-color: #ddd;
 }
+
+ 

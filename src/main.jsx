@@ -1,8 +1,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './/./assets/views/Home';
-import About from '..//src/assets/About'; // example
+import Home from './assets/views/Home.jsx';
 
 const root = createRoot(document.getElementById('root'));
 
@@ -10,7 +9,6 @@ const root = createRoot(document.getElementById('root'));
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
       <Route path="*" element={<div>404 - Page Not Found</div>} />
     </Routes>
   </BrowserRouter>
